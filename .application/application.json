@@ -309,30 +309,20 @@
   "modifiedResources": {
     "isAllModified": false,
     "modifiedResourceIdentifiers": {
-      "context_config": [
-        "68594b4167a9747869ad0d42_a9760b85-8ba2-468f-9467-867fa3f9944f"
-      ],
+      "context_config": [],
       "jslib_config": [],
       "jsobject_config": [
         "68594b4167a9747869ad0d42_42cb71b7-07e4-43dd-9681-3e01092735aa"
       ],
-      "query_config": [
-        "68594b4167a9747869ad0d42_9ac72090-db75-4c85-a1e2-914d034ca59f",
-        "68594b4167a9747869ad0d42_a287b1e5-5750-4aa0-8051-ff54cae7e5eb"
-      ]
+      "query_config": []
     },
     "modifiedResourceMap": {
       "actionCollectionList": [
         "JSObject1##ENTITY_SEPARATOR##Page1"
       ],
-      "actionList": [
-        "JSObject1.myFun2##ENTITY_SEPARATOR##Page1",
-        "JSObject1.myFun1##ENTITY_SEPARATOR##Page1"
-      ],
+      "actionList": [],
       "customJSLibList": [],
-      "pageList": [
-        "Page1"
-      ]
+      "pageList": []
     }
   },
   "pageList": [
@@ -443,6 +433,58 @@
                   "version": 1.0,
                   "widgetId": "ab236dj200",
                   "widgetName": "Button1"
+                },
+                {
+                  "animateLoading": true,
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "bottomRow": 20.0,
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "truncateButtonColor"
+                    },
+                    {
+                      "key": "fontFamily"
+                    },
+                    {
+                      "key": "borderRadius"
+                    },
+                    {
+                      "key": "text"
+                    }
+                  ],
+                  "dynamicHeight": "AUTO_HEIGHT",
+                  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                  "fontSize": "1rem",
+                  "fontStyle": "BOLD",
+                  "isLoading": false,
+                  "isVisible": true,
+                  "key": "cbu0ufka0d",
+                  "leftColumn": 10.0,
+                  "maxDynamicHeight": 9000.0,
+                  "minDynamicHeight": 4.0,
+                  "minWidth": 450.0,
+                  "mobileBottomRow": 20.0,
+                  "mobileLeftColumn": 10.0,
+                  "mobileRightColumn": 26.0,
+                  "mobileTopRow": 16.0,
+                  "needsErrorInfo": false,
+                  "overflow": "NONE",
+                  "parentColumnSpace": 14.8125,
+                  "parentId": "0",
+                  "parentRowSpace": 10.0,
+                  "renderMode": "CANVAS",
+                  "responsiveBehavior": "fill",
+                  "rightColumn": 26.0,
+                  "shouldTruncate": false,
+                  "text": "Hello {{appsmith.user.name || appsmith.user.email}}",
+                  "textAlign": "LEFT",
+                  "textColor": "#231F20",
+                  "topRow": 16.0,
+                  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "type": "TEXT_WIDGET",
+                  "version": 1.0,
+                  "widgetId": "jwhyebd6a4",
+                  "widgetName": "Text2"
                 }
               ],
               "containerStyle": "none",
