@@ -57,6 +57,7 @@
       "pluginType": "JS",
       "publishedAction": {
         "actionConfiguration": {
+          "body": "function () {}",
           "encodeParamsToggle": true,
           "jsArguments": [],
           "paginationType": "NONE",
@@ -86,7 +87,9 @@
         "invalids": [],
         "isPublic": false,
         "isValid": true,
-        "jsonPathKeys": [],
+        "jsonPathKeys": [
+          "function () {}"
+        ],
         "messages": [],
         "name": "myFun1",
         "pageId": "Page1",
@@ -152,6 +155,7 @@
       "pluginType": "JS",
       "publishedAction": {
         "actionConfiguration": {
+          "body": "async function () {}",
           "encodeParamsToggle": true,
           "jsArguments": [],
           "paginationType": "NONE",
@@ -181,7 +185,9 @@
         "invalids": [],
         "isPublic": false,
         "isValid": true,
-        "jsonPathKeys": [],
+        "jsonPathKeys": [
+          "async function () {}"
+        ],
         "messages": [],
         "name": "myFun2",
         "pageId": "Page1",
@@ -303,30 +309,20 @@
   "modifiedResources": {
     "isAllModified": false,
     "modifiedResourceIdentifiers": {
-      "context_config": [
-        "68594b4167a9747869ad0d42_a9760b85-8ba2-468f-9467-867fa3f9944f"
-      ],
+      "context_config": [],
       "jslib_config": [],
       "jsobject_config": [
         "68594b4167a9747869ad0d42_42cb71b7-07e4-43dd-9681-3e01092735aa"
       ],
-      "query_config": [
-        "68594b4167a9747869ad0d42_a287b1e5-5750-4aa0-8051-ff54cae7e5eb",
-        "68594b4167a9747869ad0d42_9ac72090-db75-4c85-a1e2-914d034ca59f"
-      ]
+      "query_config": []
     },
     "modifiedResourceMap": {
       "actionCollectionList": [
         "JSObject1##ENTITY_SEPARATOR##Page1"
       ],
-      "actionList": [
-        "JSObject1.myFun2##ENTITY_SEPARATOR##Page1",
-        "JSObject1.myFun1##ENTITY_SEPARATOR##Page1"
-      ],
+      "actionList": [],
       "customJSLibList": [],
-      "pageList": [
-        "Page1"
-      ]
+      "pageList": []
     }
   },
   "pageList": [
