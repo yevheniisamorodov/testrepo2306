@@ -1,0 +1,85 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#fff",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 88,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "children": [
+    {
+      "borderRadius": "0px",
+      "bottomRow": 880,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "isLoading": false,
+      "isVisible": "true",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 870,
+      "parentColumnSpace": 1,
+      "parentId": "mvubsemxfo",
+      "parentRowSpace": 1,
+      "rightColumn": 632,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "59rw5mx0bq",
+      "widgetName": "Canvas1"
+    }
+  ],
+  "containerStyle": "card",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "progressBarFillColor"
+    },
+    {
+      "key": "iconFillColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "emptyStateActionButtonLabel": "Button",
+  "emptyStateDescription": "Empty state description",
+  "emptyStateIconName": "document",
+  "emptyStateTitle": "Empty state title",
+  "errorStateActionButtonLabel": "Button",
+  "errorStateDescription": "Error state description",
+  "errorStateIconName": "error",
+  "errorStateTitle": "Error state title",
+  "iconFillColor": "{{appsmith.theme.colors.primaryColor}}",
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "loadingStateIconName": "data-connection",
+  "loadingStateTitle": "Data loading",
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 19.75,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "progressBarFillColor": "{{appsmith.theme.colors.primaryColor}}",
+  "rightColumn": 39,
+  "shouldScrollContents": true,
+  "topRow": 0,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "mvubsemxfo",
+  "widgetName": "Container1"
+}

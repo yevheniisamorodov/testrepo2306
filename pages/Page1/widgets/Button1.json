@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 41,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -36,7 +36,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 33,
   "text": "Submit",
-  "topRow": 12,
+  "topRow": 37,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "ab236dj200",
